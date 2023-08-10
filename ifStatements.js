@@ -9,7 +9,7 @@ var age = 10
 if (age >= 30) {
   console.log("You're, like, really old.")
 } else if (age >= 13) {
-  console.log("You are not yet destined for carousel")
+  console.log('You are not yet destined for carousel')
 } else {
   console.log("You're but a youngling")
 }
@@ -48,34 +48,34 @@ console.log(me18Her60)
 console.log(me21Her25)
 console.log(me20Her40)
 
-password1 = "hello"
-password2 = "helloworld#"
-password3 = "#"
-password4 = "hellomybaby"
-password5 = "hellomybaby#"
+password1 = 'hello'
+password2 = 'helloworld#'
+password3 = '#'
+password4 = 'hellomybaby'
+password5 = 'hellomybaby#'
 
-if (password1.length >= 8 && password1.includes("#")) {
-  console.log("password1 is valid")
+if (password1.length >= 8 && password1.includes('#')) {
+  console.log(`${password1} is valid`)
 } else {
-  console.log("password1 is invalid")
+  console.log(`${password1} is invalid`)
 }
-if (password2.length >= 8 && password2.includes("#")) {
-  console.log("password2 is valid")
+if (password2.length >= 8 && password2.includes(`#`)) {
+  console.log(`${password2} is valid`)
 } else {
-  console.log("password2 is invalid")
+  console.log(`${password2} is invalid`)
 }
-if (password3.length >= 8 && password3.includes("#")) {
-  console.log("password3 is valid")
+if (password3.length >= 8 && password3.includes(`#`)) {
+  console.log(`${password3} is valid`)
 } else {
-  console.log("password3 is invalid")
+  console.log(`${password3} is invalid`)
 }
-if (password4.length >= 8 && password4.includes("#")) {
-  console.log("password4 is valid")
+if (password4.length >= 8 && password4.includes(`#`)) {
+  console.log(`${password4} is valid`)
 } else {
-  console.log("password4 is invalid")
+  console.log(`${password4} is invalid`)
 }
-if (password5.length >= 8 && password5.includes("#")) {
-  console.log("password5 is valid")
+if (password5.length >= 8 && password5.includes(`#`)) {
+  console.log(`${password5} is valid`)
 } else {
-  console.log("password5 is invalid")
+  console.log(`${password5} is invalid`)
 }
